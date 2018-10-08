@@ -1,26 +1,26 @@
-importScripts('/my-project/_nuxt/workbox.5c678697.js')
+importScripts('/_nuxt/workbox.5c678697.js')
 
 
 
 workbox.precaching.precacheAndRoute([
   {
-    "url": "/my-project/_nuxt/066a6cab6e35943e9bd6.js",
-    "revision": "0338a849d1e358b388f3ac795b037987"
-  },
-  {
-    "url": "/my-project/_nuxt/2e94e98ee1dde9838ac3.js",
-    "revision": "91ab45360d1f474edc55297047c21cc0"
-  },
-  {
-    "url": "/my-project/_nuxt/b52c7fdd13f20e422be5.js",
+    "url": "/_nuxt/34dd61504f96559c4049.js",
     "revision": "3d770471110996aecb8b83a1829838d4"
   },
   {
-    "url": "/my-project/_nuxt/fb1b5924bfa125f76792.js",
-    "revision": "bdca8648f23fbe392140a1031f831525"
+    "url": "/_nuxt/82bad4e0df82227af59f.js",
+    "revision": "e4aa443e7b20679e55ab8daca673ee11"
+  },
+  {
+    "url": "/_nuxt/847211d65136a0306778.js",
+    "revision": "0dcc4ae1e6d569f126819807213dd328"
+  },
+  {
+    "url": "/_nuxt/c5073e51076a9392464f.js",
+    "revision": "10a52384cc132d1d4a51a68f5c90a45f"
   }
 ], {
-  "cacheId": "test",
+  "cacheId": "my-project",
   "directoryIndex": "/",
   "cleanUrls": false
 })
@@ -31,9 +31,9 @@ workbox.clientsClaim()
 workbox.skipWaiting()
 
 
-workbox.routing.registerRoute(new RegExp('/my-project/_nuxt/.*'), workbox.strategies.cacheFirst({}), 'GET')
+workbox.routing.registerRoute(new RegExp('/_nuxt/.*'), workbox.strategies.cacheFirst({}), 'GET')
 
-workbox.routing.registerRoute(new RegExp('/my-project/.*'), workbox.strategies.networkFirst({}), 'GET')
+workbox.routing.registerRoute(new RegExp('/.*'), workbox.strategies.networkFirst({}), 'GET')
 
 
 
