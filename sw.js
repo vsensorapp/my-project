@@ -8,19 +8,19 @@ workbox.precaching.precacheAndRoute([
     "revision": "3d770471110996aecb8b83a1829838d4"
   },
   {
-    "url": "/_nuxt/82bad4e0df82227af59f.js",
-    "revision": "e4aa443e7b20679e55ab8daca673ee11"
+    "url": "/_nuxt/3664124a85034034eb82.js",
+    "revision": "1260557f528f922e10705f7a9ba7d88d"
   },
   {
-    "url": "/_nuxt/847211d65136a0306778.js",
-    "revision": "0dcc4ae1e6d569f126819807213dd328"
+    "url": "/_nuxt/82bad4e0df82227af59f.js",
+    "revision": "e4aa443e7b20679e55ab8daca673ee11"
   },
   {
     "url": "/_nuxt/c5073e51076a9392464f.js",
     "revision": "10a52384cc132d1d4a51a68f5c90a45f"
   }
 ], {
-  "cacheId": "my-project",
+  "cacheId": "V-Sensor",
   "directoryIndex": "/",
   "cleanUrls": false
 })
