@@ -4,20 +4,28 @@ importScripts('/_nuxt/workbox.5c678697.js')
 
 workbox.precaching.precacheAndRoute([
   {
-    "url": "/_nuxt/34dd61504f96559c4049.js",
-    "revision": "3d770471110996aecb8b83a1829838d4"
+    "url": "/_nuxt/0c1c79784720ca446d1e.js",
+    "revision": "a304fd0b76cdb3d417e0fd0737873d7f"
   },
   {
-    "url": "/_nuxt/575217dc72014622946a.js",
-    "revision": "e0b35edf94ba2b4c044621e31e739749"
+    "url": "/_nuxt/1970af310804058b07bb.js",
+    "revision": "58b51ece7a58355d7c041b4165cc0eb6"
   },
   {
-    "url": "/_nuxt/82bad4e0df82227af59f.js",
-    "revision": "e4aa443e7b20679e55ab8daca673ee11"
+    "url": "/_nuxt/331ed8ca807510b29501.js",
+    "revision": "533965e0fb9ff6500fc7ed01099aceef"
   },
   {
-    "url": "/_nuxt/c5073e51076a9392464f.js",
-    "revision": "10a52384cc132d1d4a51a68f5c90a45f"
+    "url": "/_nuxt/77307c1bc1b175ecc47d.js",
+    "revision": "d7c658b08d28b3ccabcd73da3a166647"
+  },
+  {
+    "url": "/_nuxt/b2733e883b453699a591.js",
+    "revision": "58980249f0f8f051854c229dcf495ec6"
+  },
+  {
+    "url": "/_nuxt/c05da2f5c8557691ad8d.js",
+    "revision": "834b135a6f0440d4794042812a4eec86"
   }
 ], {
   "cacheId": "V-Sensor",
